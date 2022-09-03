@@ -1,0 +1,11 @@
+{
+	"name": "monorepo",
+	"scripts": {
+		"dev": "npm --prefix apps/astro-app run dev",
+		"build": "npm --prefix apps/astro-app run build"
+	},
+	"devDependencies": {
+		"@astrojs/vercel": "^1.0.1",
+		"astro": "^1.1.1"
+	}
+}
